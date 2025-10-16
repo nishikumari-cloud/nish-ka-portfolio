@@ -38,13 +38,16 @@ body{
     cursor: pointer;
 
 }
-.section-1 img{
+.section-1-part-1 img{
     margin:50px;
     gap: 50px;
-    height:35vh;
+    height:50vh;
     width:auto;
 }
 .section-1{
     display: flex;
-    justify-content: center;
+    float: right;
+}
+.intro h1{
+    color:aliceblue;
 }
