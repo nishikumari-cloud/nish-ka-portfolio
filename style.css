@@ -1,0 +1,50 @@
+.header{
+    color:white ;
+    background-color: black;
+    font-family:sans-serif;
+    font-style: italic;
+    
+
+    
+}
+body{
+    background-color: black;
+}
+.name{
+    color: white;
+
+}
+.header ul{
+    display: flex;
+    flex-direction:row;
+    gap:30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    
+    
+    
+}
+.header li{
+    margin: 0;
+    
+}
+.header a{
+    color: azure;
+    
+}
+.header ul :hover{
+    color:green;
+    cursor: pointer;
+
+}
+.section-1 img{
+    margin:50px;
+    gap: 50px;
+    height:35vh;
+    width:auto;
+}
+.section-1{
+    display: flex;
+    justify-content: center;
+}
