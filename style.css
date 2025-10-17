@@ -43,11 +43,35 @@ body{
     gap: 50px;
     height:50vh;
     width:auto;
-}
-.section-1{
     display: flex;
     float: right;
+    padding-left: auto;
 }
 .intro h1{
     color:aliceblue;
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    align-items: center;
+    
+}
+.intro h2{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    height: 30vh;
+    align-items: center;
+}
+.Card{
+    color: hsl(208, 50%, 97%);
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-style: sans-serif;
+
+}
+.section-3{
+    display: flex;
+    flex-direction: column;
+
 }
