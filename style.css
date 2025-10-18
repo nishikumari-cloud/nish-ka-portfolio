@@ -59,6 +59,146 @@ body {
 }
 .section-3 {
 	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+#skills-image1{
+    border-width: 5px #fff;
+    border-radius: 10px;
+    padding-right: 10px;
+    box-shadow: #fff;
+	color: #f0f8ff;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
+	font-size: larger;
+	gap: 0px;
+	
 }
+#skills-image2{
+    border-width: 5px #fff;
+    border-radius: 10px;
+    padding-right: 10px;
+    box-shadow: #fff;
+	color: #f0f8ff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: larger;
+}
+#skills-image3{
+    border-width: 5px #fff;
+    border-radius: 10px;
+    padding-right: 10px;
+    box-shadow: #fff;
+	color: #f0f8ff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: larger;
+}
+#skills-image4{
+    border-width: 5px #fff;
+    border-radius: 10px;
+    padding-right: 10px;
+    box-shadow: #fff;
+	color: #f0f8ff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: larger;
+}
+#a{
+	color: green;
+	font-size:xx-large;
+	column-gap: 0px;
+}
+#b{
+	color: gray;
+	font-size: large;
+	column-gap: 0px;
+}
+#c{
+	color: green;
+	font-size:xx-large;
+	column-gap: 0px;
+}
+#d{
+	color: gray;
+	font-size: large;
+	column-gap: 0px;
+}
+#e{
+	color: green;
+	font-size:xx-large;
+	column-gap: 0px;
+}
+#f{
+	color: gray;
+	font-size: large;
+	column-gap: 0px;
+	
+}
+#g{
+	color: green;
+	font-size:xx-large;
+	column-gap: 0px;
+}
+#h{
+	color: gray;
+	font-size: large;
+	column-gap: 0px;
+}
+#n{
+	color: green;
+	font-size: xx-large;
+}
+.k{
+	color:gray;
+	font-size: larger;
+}
+#s{
+	color: green;
+	font-size: xx-large;
+}
+.z{
+	color:white;
+}
+#m{
+	color: green;
+	font-size: xx-large
+}
+.section-4{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	color: white;
+	padding: 40px 0;
+	gap: 50px;
+	flex-wrap: wrap;
+}
+.section-4 :hover{
+	color:green;
+	cursor: pointer;
+}
+.section-4 i {
+	font-size: 30px;
+	color: white;
+
+}
+.section-4 i:hover{
+	color: green;
+	cursor: pointer;
+}
+footer{
+	color: #61676b;
+	display: flex;
+	justify-content: center;
+	font-size: larger;
+}
+
