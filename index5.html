@@ -24,31 +24,88 @@
 				</ul>
 			</div>
 		</nav>
-		<section class="section-1">
+
+		<!-- hero section -->
+
+		<section class="hero-section">
 			<div class="intro">
 				<h1>Hello I'm Nishi</h1>
-				<!-- this h2 text is too big compared to the heading so user experience and style compromised  -->
 				<h2>
 					A dedicated web engineer and cloud computing enthusiast,<br />
 					committed to building robust, scalable solutions to empower businesses to
 					grow.
 				</h2>
 			</div>
-			<div class="section-1-photo">
+			<div class="hero-section-photo">
 				<img src="photo.jpg" alt="nishi ka photo" />
 			</div>
 		</section>
-		<section class="section-2">
-			<div class="Card">Quick Stats</div>
+
+		<!-- skills section -->
+
+		<section class="skill-cards-container">
+			<div class="card-container-heading">Quick Stats</div>
+			<div class="section-3">
+				<div class="skills-image">
+					<img src="image1.jpg" />
+					<p class="number">6+</p>
+					<p class="card-heading">PROJECTS</p>
+				</div>
+				<div class="skills-image">
+					<img src="image2.jpg" />
+					<p class="number">10+</p>
+					<p class="card-heading">SKILLS</p>
+				</div>
+				<div class="skills-image">
+					<img src="image3.jpg" />
+					<p class="number">1.5Yr</p>
+					<p class="card-heading">EXPERIENCE</p>
+				</div>
+				<div class="skills-image">
+					<img src="image4.jpg" />
+					<p class="number">0</p>
+					<p class="card-heading">SOCIAL LIFE</p>
+				</div>
+			</div>
 		</section>
-		<section class="section-3">
-			<!-- why are you using id ??? id only helps if you really need to individually style same elements differently. You won't be styling these images differently so remove the id and keep the class  -->
-			<div id="skills-image1" class="skills-image"><img src="image1.jpg" /></div>
-			<div id="skills-image2" class="skills-image"><img src="image2.jpg" /></div>
-			<div id="skills-image3" class="skills-image"><img src="image3.jpg" /></div>
-			<div id="skills-image4" class="skills-image"><img src="image4.jpg" /></div>
+
+		<!-- this whole section below should be footer not the line but ok, keep that in mind in your next project. I'm not fixing this as you will struggle to understand later -->
+
+		<section class="section-4">
+			<div>
+				<p class="footer-headings">Nishi</p>
+				<p class="k">
+					Web Engineer & Cloud Enthusiast building scalable<br />
+					solutions for the modern web
+				</p>
+			</div>
+			<div>
+				<p class="footer-headings">Quick Links</p>
+				<ul class="links">
+					<li>Home</li>
+					<li>Skills</li>
+					<li>Projects</li>
+					<li>About</li>
+				</ul>
+			</div>
+			<div>
+				<p class="footer-headings">Connect With Me</p>
+				<i class="fa-brands fa-square-instagram"></i>
+				<i class="fa-brands fa-square-linkedin"></i>
+				<i class="fa-solid fa-square-envelope"></i>
+				<i class="fa-brands fa-square-x-twitter"></i>
+			</div>
 		</section>
+		<footer>
+			<p>© 2025 Nishi. All rights reserved. | Built with love</p>
+		</footer>
 	</body>
 </html>
 
-<!-- -->
+<!--NEVER IN YOUR LIFE EVER make id or class names as a, b, c or hi, hello anything, you'll be working on team or someone has to review your code in your job, so never do this unless you want to get fired - always use proper explanatory names -->
+<!-- 
+	changed id (a c e g) to class (number)
+	changed id (b d f g) to class (card-heading)
+	use <br> only when the line needs to changed inside one element
+	dont name images like 1 2 3 just use meaningful short names like "nishi", "projects-img", "experience-img" etc. etc. it is a mandatory good practice to write clean codes keeping in mind that other person has to understand what you have done
+	-->
