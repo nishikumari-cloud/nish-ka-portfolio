@@ -1,3 +1,10 @@
+/* previously told you to use this 3 modifications mandatorily, your fault for not remembering (-10) */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
 .header {
 	color: white;
 	background-color: black;
@@ -23,6 +30,12 @@ body {
 }
 .header a {
 	color: azure;
+	font-size: clamp(
+		12px,
+		1.2vw,
+		30px
+	); /* added this for a better responsive font-size across different screens, learn more about about clamp from internet*/
+	text-decoration: none; /*use this if you want to remove underlines from links*/
 }
 .header ul :hover {
 	color: green;
@@ -33,7 +46,7 @@ body {
 	display: flex;
 	height: 100%;
 	justify-content: space-around;
-    margin: 50px;
+	margin: 50px;
 }
 
 .section-1-photo img {
@@ -59,6 +72,25 @@ body {
 }
 .section-3 {
 	display: flex;
-	flex-direction: column;
+	/* flex-direction: column; i don't knwo why did you kept this ? */
+	justify-content: space-between; /*used this so that the images have equally distributed space between them*/
 	align-items: center;
+	padding: 10px;
 }
+.skills-image img {
+	max-height: 200px;
+}
+
+/* this is a media query, this is where you get to set your desired changes in your elements whenever the screen dimension criteria is matched, for example: here the criteria is max-width: 768px, that means until the width of the screen is (0px < width < 768px) this modifications will be applied and when it gets bigger, the previous style will take over, that's why when you make the screen smaller, you'll see the skills images being into column and in section-1 your thobra and the paragraph vertically aligned*/
+@media (max-width: 768px) {
+	.section-1 {
+		flex-direction: column-reverse;
+	}
+	.section-3 {
+		flex-direction: column;
+	}
+}
+
+/*next up dear sister you'll add what I have wrote in the skills and add the footer, the footer may be hard for you so just try to add only your name, a line or 2 and the links of ig, twitter whatever you have add the icons from font-awesome, make the links functional obviously so that whenevr they are clicked they take me to your profiles*/
+
+/* tip: analyse websites you regularly visit to understand what are the basic designing norms and try to see your works from a user's perspective not from a builder's. You need to make your work look clean, better design comes after that */
